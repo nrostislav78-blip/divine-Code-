@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "divinecode",
+  "version": "${version}",
+  "name": "Divine Code",
+  "description": "My custom Minecraft mod",
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/divinecode/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.divinecode.DivineCodeMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
